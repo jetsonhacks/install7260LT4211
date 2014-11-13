@@ -7,6 +7,6 @@ This repository contains the compiled device driver (iwlwifi) for the Intel 7260
 
 This is has been compiled against the stock kernel: 3.10.40-g8c4516e
 
-The install7260Driver.sh is rather brutish in that it installs the needed firmware and modules as needed. Because the GPIO 191 signals need to be manipuated at boot time, the script also overwrites rc.local.
+The install7260Driver.sh is rather brutish in that it installs the needed firmware and modules as needed. Because the GPIO 191 signals need to be manipuated at boot time, the script also overwrites /etc/rc.local.
 
 Modify as appropriate for your situation.
